@@ -1,0 +1,3 @@
+# Silent Failure on Missing Input File
+
+This script demonstrates a common error in shell scripting: silent failure when an input file is missing.  The script attempts to process `my_file.txt`, but if the file doesn't exist, it exits without any indication of the problem. This can lead to hard-to-debug issues, especially in more complex scripts.  The solution shows how to correctly handle the missing file scenario.
